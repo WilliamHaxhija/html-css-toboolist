@@ -4,3 +4,23 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f6f8f9;
+}
+
+header{
+    background-color: white;
+}
+
+.logo{
+    margin: 10px 20px;
+}
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 35px;
+}
+
+img{
+    vertical-align: middle;
+}
