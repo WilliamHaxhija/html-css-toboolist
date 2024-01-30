@@ -8,6 +8,10 @@ body{
     background-color: #f6f8f9;
 }
 
+/*------------------
+       Header
+------------------*/ 
+
 header{
     background-color: white;
     height: 75px;
@@ -26,6 +30,9 @@ img{
     vertical-align: middle;
 }
 
+/*------------------
+       /Header
+------------------*/ 
 
 nav{
     height: 60px;
@@ -34,6 +41,10 @@ nav{
     margin: auto;
     margin-top: 1.5%;
 }
+
+/*------------------
+       Buttons
+------------------*/ 
 
 .button-wrap{
     padding: 15px 50px;
@@ -48,9 +59,97 @@ nav{
 }
 
 .section-btn{
-    color: grey;
+    color: gray;
     border-radius: 10%;
     padding: 7px;
 }
 
+/*------------------
+       /Buttons
+------------------*/ 
 
+/*------------------
+       Sections
+------------------*/
+
+.sections-wrap{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+section{
+    padding-top: 2%;
+    padding-left: 50px;
+}
+
+.task-wrap{
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.circles{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cross{
+    color: red;
+    border: 1px solid red;
+}
+
+.list{
+    font-size: 25px;
+}
+
+/* tags and tags colors */
+
+.tags{
+    display: inline-block;
+    width: 75px;
+    height: 35px;
+    border-radius: 20%;
+    color: white;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.azure{
+    background-color: #09a9ed;
+}
+.purple{
+    width: 85px;
+    background-color: #ab5de6;
+}
+.green{
+    width: 95px;
+    background-color: #34c8ae;
+}
+.orange{
+    width: 70px;
+    background-color: #ff9b00;
+}
+.light-purple{
+    background-color: #ec4a9d;
+}
+.light-green{
+    width: 60px;
+    background-color: #a3d116;
+}
+
+/* /tags and tags coloros */
+
+/*------------------
+       /Sections
+------------------*/
