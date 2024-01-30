@@ -10,17 +10,47 @@ body{
 
 header{
     background-color: white;
+    height: 75px;
 }
 
 .logo{
-    margin: 10px 20px;
+    margin: 1% 1%;
 }
 h1{
     display: inline-block;
     vertical-align: middle;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 img{
     vertical-align: middle;
 }
+
+
+nav{
+    height: 60px;
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    margin-top: 1.5%;
+}
+
+.button-wrap{
+    padding: 15px 50px;
+}
+
+.task-btn{
+    background-color: #14aaf5;
+    color: white;
+    border: #14aaf5;
+    border-radius: 10%;
+    padding: 9px;
+}
+
+.section-btn{
+    color: grey;
+    border-radius: 10%;
+    padding: 7px;
+}
+
+
